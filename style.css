@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.titulo{
+    border-bottom: solid 1px red; /*borda em baixo*/
+    font-size: 32px;
+    padding-left: 20px;
+    color: red;
+}
+.section01{
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.texto{
+    margin-right: 5%;
+    font-size: 40px;
+}
+
+img{
+    height: 212px;
+}
+
+.videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+.section02{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.videos img{  
+    opacity: 0.5;
+} /* ele coloca uma função na classe caso houvese algum elemento especifico como por exemplo h1,img ele faz as alteraçoes caso houver */
+.videos img:hover{
+    opacity: 1;
+    border: solid 2px white;
+}
